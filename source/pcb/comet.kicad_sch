@@ -6877,6 +6877,12 @@
 		(uuid "d5769f95-36eb-4bd7-b26a-c361a3041990")
 	)
 	(junction
+		(at 269.24 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db4014cc-5f93-4778-8a22-5364b2b2c4ee")
+	)
+	(junction
 		(at 68.58 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6899,6 +6905,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2695d60-2259-48b7-b40d-d0dddd6dcd1e")
+	)
+	(junction
+		(at 269.24 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5a487db-c01f-4d50-9135-a1da2182b925")
 	)
 	(junction
 		(at 205.74 175.26)
@@ -7049,6 +7061,16 @@
 			(type default)
 		)
 		(uuid "08909865-72cf-4153-8195-888f0cdcb92e")
+	)
+	(wire
+		(pts
+			(xy 269.24 53.34) (xy 278.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5cc6b0-a79f-489f-86b1-7ef22e4714e7")
 	)
 	(wire
 		(pts
@@ -7432,6 +7454,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 45.72) (xy 278.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41516883-7ceb-427f-be1c-281efcb4c7e4")
+	)
+	(wire
+		(pts
 			(xy 152.4 52.07) (xy 151.13 52.07)
 		)
 		(stroke
@@ -7602,6 +7634,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 45.72) (xy 269.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c492bc-fe13-4e0a-addf-0d54e1da65f9")
+	)
+	(wire
+		(pts
 			(xy 46.99 25.4) (xy 52.07 25.4)
 		)
 		(stroke
@@ -7609,6 +7651,16 @@
 			(type default)
 		)
 		(uuid "558a50bf-2783-4703-ba80-5637bb14c197")
+	)
+	(wire
+		(pts
+			(xy 269.24 45.72) (xy 278.13 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58aaea88-eccf-4623-887a-8db6161c8c27")
 	)
 	(wire
 		(pts
@@ -8402,6 +8454,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 52.07) (xy 278.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f38e00-030c-4875-b254-82b748cbb8dd")
+	)
+	(wire
+		(pts
 			(xy 57.15 25.4) (xy 62.23 25.4)
 		)
 		(stroke
@@ -8749,6 +8811,16 @@
 			(type default)
 		)
 		(uuid "e52f2170-05e0-4c6a-81c1-100c0b4e30a5")
+	)
+	(wire
+		(pts
+			(xy 269.24 52.07) (xy 269.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56535b2-d29a-4a8e-b0fa-ac71a06fe5f2")
 	)
 	(wire
 		(pts
@@ -11237,7 +11309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:button_342"
+		(property "Footprint" "common_footprints:SW-SMD_6x6"
 			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11409,7 +11481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 255.27 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11468,7 +11540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11f80d65-c7cf-4f28-b10c-e59cca5db90d")
-		(property "Reference" "H9"
+		(property "Reference" "H5"
 			(at 208.026 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11491,7 +11563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "common_footprints:display_hole"
 			(at 205.74 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11527,7 +11599,7 @@
 		(instances
 			(project "comet"
 				(path "/de3c4a32-9ffa-4621-bddd-735fa027fb56"
-					(reference "H9")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -11795,6 +11867,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 278.13 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15034e7e-c347-401b-9417-af7fa528122c")
+		(property "Reference" "C49"
+			(at 277.622 47.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 277.622 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 278.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 278.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C15525"
+			(at 278.13 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "998d850a-5037-43b9-9bfd-a52236cb29eb")
+		)
+		(pin "1"
+			(uuid "22790d54-e061-4935-a226-7946287ac300")
+		)
+		(instances
+			(project "comet"
+				(path "/de3c4a32-9ffa-4621-bddd-735fa027fb56"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 25.4 0)
 		(unit 1)
@@ -11982,7 +12147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "common_footprints:SW-TH_MSK12D18G2"
 			(at 147.32 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12234,7 +12399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:button_342"
+		(property "Footprint" "common_footprints:SW-SMD_6x6"
 			(at 279.4 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13407,6 +13572,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 269.24 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40b6c0cc-3487-49ca-986a-d87882f96be5")
+		(property "Reference" "#PWR067"
+			(at 269.24 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7239d473-5b71-4e19-b268-2e6daca3e9a7")
+		)
+		(instances
+			(project "comet"
+				(path "/de3c4a32-9ffa-4621-bddd-735fa027fb56"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 33.02 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -13827,7 +14070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:button_342"
+		(property "Footprint" "common_footprints:SW-SMD_6x6"
 			(at 194.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13907,7 +14150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:button_342"
+		(property "Footprint" "common_footprints:SW-SMD_6x6"
 			(at 267.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -17061,7 +17304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:button_342"
+		(property "Footprint" "common_footprints:SW-SMD_6x6"
 			(at 279.4 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18186,7 +18429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:button_342"
+		(property "Footprint" "common_footprints:SW-SMD_6x6"
 			(at 194.31 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18514,7 +18757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:button_342"
+		(property "Footprint" "common_footprints:SW-SMD_6x6"
 			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18961,6 +19204,177 @@
 			(project "comet"
 				(path "/de3c4a32-9ffa-4621-bddd-735fa027fb56"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 269.24 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1eb8322-d6cc-4ff6-a49b-a95c1994eec0")
+		(property "Reference" "C48"
+			(at 268.732 47.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 268.732 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C15525"
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23407350-3902-45ac-9ff4-e9b6b4921d03")
+		)
+		(pin "1"
+			(uuid "45e4e4bd-83f3-45ba-98b0-1edec87b5c3c")
+		)
+		(instances
+			(project "comet"
+				(path "/de3c4a32-9ffa-4621-bddd-735fa027fb56"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 269.24 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8c22563-1a91-46d5-9493-5fd986161dea")
+		(property "Reference" "#PWR066"
+			(at 269.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 269.24 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 269.24 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "560c5766-959f-4543-9eb6-de33175925a0")
+		)
+		(instances
+			(project "comet"
+				(path "/de3c4a32-9ffa-4621-bddd-735fa027fb56"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -19868,7 +20282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:button_342"
+		(property "Footprint" "common_footprints:SW-SMD_6x6"
 			(at 292.1 91.44 0)
 			(hide yes)
 			(show_name no)
